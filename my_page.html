@@ -1,9 +1,85 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <style>
+    .container {
+        display: table;
+        background-color: blue
+    }
+    
+    .name_and_pic {
+        display: table-cell;
+        /* float:left; */
+        margin: 4em;
+        width: 20%;
+        /* background-color: rebeccapurple */
+        }
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    .blurb {
+        display: table-cell;
+        padding-top: 1em;
+        padding-bottom: 4em;
+        /* float:right; */
+        /* background-color: lightgray; */
+        width: 50%;
+
+        }
+    .contact {
+        display: table-cell;
+        /* float:center; */
+        width: 30%;
+        margin: auto;
+        /* background-color:  coral; */
+        }
+    
+   
+    h1 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        border: 0px;
+        padding: 0px
+        }
+
+    body {
+        background: wheat
+        } 
+    </style>
+</head>
+
+<body>
+    <div id = "header">
+        <h1>Student Bio</h1>
+    </div>
+
+    <div id = "container">
+        <div class="name_and_pic">
+            <h3>Bob Caldwell</h3>
+            <img src="https://place-hold.it/200"
+            <br>       
+        </div>
+
+        <div class="blurb">
+            <br>
+            <br>
+            <br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email:</strong>  <a href=mailto: bob.caldwell@outlook.com>bob.caldwell@some_provider.com</a></l1>
+                <li><strong>GitHub:</strong>  <a href="https://github.com/caldwell-bob/">Check out my GitHub</a></li>
+                <li><strong>Portfolio:</strong>  Coming Soon</li>
+            </ul>
+        </div> 
+    </div>
+    
+     
+
+
 
 </body>
 </html>
